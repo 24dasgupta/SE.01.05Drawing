@@ -49,7 +49,7 @@ function setup() {
   let bannerDiv = select('#app-header');
   bannerDiv.html('Fashion Colorator'); //#2 Change to your themed title
   
-  let canvas = createCanvas(450, 800);
+  let canvas = createCanvas(windowWdith, windowHieght-200);
   let canvasContainer = select("#canvasContainer");
   canvas.parent("canvasContainer");
   
